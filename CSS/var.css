@@ -1,0 +1,96 @@
+:root {
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    color: #2e363f;
+
+}
+
+body {
+    font-family: 'Montserrat' , sans-serif ;
+}
+
+.cabecalho-container {
+    width: 80vw;
+    margin: auto;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(175deg, rgba(151, 190, 241, 0.85), rgba(188, 221, 233, 0.7) 60%, transparent 100%), url(../assets/garagem-vazia-com-estacionamentos-com-teto-e-piso-de-concreto-e-pilares-marcados-com-numeros.jpg);
+    background-size: cover;
+    background-position-y: center;
+    border-radius: 0.313rem;
+    width: 100%;
+    height: 70vh;
+}
+
+
+.cabecalho .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 35vh;
+    padding-left: 3.13rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.cabecalho .menu ul {
+    display: flex;
+    gap: 2rem;
+    padding: 1.88rem;
+}
+
+.cabecalho .menu ul a:hover {
+    transition: all .4s ease-in-out;
+    color: #fff;
+}
+
+.cabecalho #logo {
+    width: 12.5rem;
+    height: 12.5rem;
+    transition: all .4s ease-in;
+}
+
+.cabecalho #logo:hover {
+    transform: rotateZ(-360deg);
+}
+
+.cabecalho-informacoes {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1.9rem;
+}
+
+.cabecalho .cabecalho-informacoes h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    transition: all 0.4s ease-in;
+}
+
+.cabecalho .cabecalho-informacoes h1:hover {
+    transform:perspective(1px) translateY(-6px);
+}
+
+.cabecalho .cabecalho-informacoes h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.cabecalho .cabecalho-informacoes p {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.cabecalho .cabecalho-informacoes #freepik {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding-top: 1rem;
+    font-size: 0.7rem;
+}
+}
+
