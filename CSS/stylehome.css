@@ -1,1 +1,17 @@
 @import url(./var.css);
+
+.informacoes {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin: auto;
+    background-color: #FFF;
+}
+
+.prom {
+    display: flex;
+}
+
+.gerais {
+    display: flex;
+}
