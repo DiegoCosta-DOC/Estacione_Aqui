@@ -25,6 +25,7 @@ body {
     border-radius: 0.313rem;
     width: 100%;
     height: 70vh;
+    overflow: hidden;
 }
 
 
