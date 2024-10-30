@@ -26,7 +26,7 @@
 
 .prom1 {
     color: #FFF;
-    background-image: linear-gradient(90deg, rgba(18, 16, 31, 0.7) 25%, rgba(151, 190, 241, 0.85), rgba(188, 221, 233, 0.7) 70%, transparent 100%), url('../assets/carro-esportivo.jpg');
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 15%, transparent 100%), url('../assets/carro-esportivo.png');
     background-size: cover; /* Para cobrir toda a área */
     background-position: center; /* Para centralizar a imagem */
     border-radius: 5px;
