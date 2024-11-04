@@ -4,12 +4,11 @@
 * {
     color: #0c0b0b;
     width: auto;
-
 }
 
 body {
     font-family: 'Montserrat' , sans-serif ;
-    background-color: #000;
+    background-color: #fff;
 }
 
 .cabecalho-container {
@@ -24,7 +23,8 @@ body {
     background-size: cover;
     background-position-y: center;
     border-radius: 0.313rem;
-    width: 100%;
+    width: 90vw;
+    margin: 0 auto;
     height: 70vh;
     overflow: hidden;
 }
