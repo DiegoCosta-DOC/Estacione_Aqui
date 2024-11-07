@@ -23,8 +23,7 @@ body {
     background-size: cover;
     background-position-y: center;
     border-radius: 0.313rem;
-    width: 90vw;
-    margin: 0 auto;
+    width: 100vw;
     height: 70vh;
     overflow: hidden;
 }
