@@ -5,7 +5,7 @@
 </a> </button>
 
 <h2>�� Sobre</h2>
-<p>Projeto do curso do Gregory Pacheco na plataforma Udemy</p>
+<p>Projeto do curso do Gregory Pacheco da plataforma Udemy</p>
 
 ## �� Tecnologias
 <div>
